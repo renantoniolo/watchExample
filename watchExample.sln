@@ -1,0 +1,43 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "watchExample", "watchExample\watchExample.csproj", "{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.WatchOSApp", "RockPaperScissors\RockPaperScissors.WatchOSApp\RockPaperScissors.WatchOSApp.csproj", "{455DCB07-7B00-4872-BC9E-EFE03BFB4738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors.WatchOSExtension", "RockPaperScissors\RockPaperScissors.WatchOSExtension\RockPaperScissors.WatchOSExtension.csproj", "{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D762268F-BD8E-4B05-ABA3-D9D053F1CCBF}.Release|iPhone.Build.0 = Release|iPhone
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Debug|iPhone.Build.0 = Debug|iPhone
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Release|iPhone.ActiveCfg = Release|iPhone
+		{455DCB07-7B00-4872-BC9E-EFE03BFB4738}.Release|iPhone.Build.0 = Release|iPhone
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C7A31112-CFB2-4AA7-AFFF-89DE5F0A3463}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

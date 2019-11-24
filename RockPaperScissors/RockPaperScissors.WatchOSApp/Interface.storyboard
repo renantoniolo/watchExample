@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15505" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="Resultado:" id="ydA-fP-0wD"/>
+                        <label width="1" height="0.40000000000000002" alignment="left" textAlignment="center" id="KQs-1W-nKF">
+                            <fontDescription key="font" style="UICTFontTextStyleTitle0"/>
+                        </label>
+                        <separator width="1" alignment="center" id="zV0-ze-4zN">
+                            <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </separator>
+                        <group width="1" alignment="left" id="CKS-IU-oQd">
+                            <items>
+                                <button width="41" height="41" alignment="left" accessibilityIdentifier="btn01" accessibilityValue="btn01" backgroundImage="scissors" catalog="system" id="oKb-Pq-Xj8">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <connections>
+                                        <action selector="CommandScissors" destination="AgC-eL-Hgc" id="COL-JQ-jxR"/>
+                                    </connections>
+                                </button>
+                                <button width="41" height="41" alignment="center" backgroundImage="paperplane" catalog="system" id="kGy-U0-i2q">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <connections>
+                                        <action selector="CommandPaper" destination="AgC-eL-Hgc" id="q53-vm-deb"/>
+                                    </connections>
+                                </button>
+                                <button width="41" height="41" alignment="right" backgroundImage="stop.fill" catalog="system" id="gqF-RD-bIn">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <connections>
+                                        <action selector="CommandRock" destination="AgC-eL-Hgc" id="GnG-aP-fyO"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="ButtonPaper" destination="kGy-U0-i2q" id="uly-EX-Xoq"/>
+                        <outlet property="ButtonRock" destination="gqF-RD-bIn" id="DWL-Xf-Tcy"/>
+                        <outlet property="ButtonScissors" destination="oKb-Pq-Xj8" id="2eq-fo-A0E"/>
+                        <outlet property="LabelResult" destination="KQs-1W-nKF" id="g9c-1Y-ssI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="teste 123" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="231" y="0.0"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="462" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paperplane" catalog="system" width="64" height="60"/>
+        <image name="scissors" catalog="system" width="64" height="44"/>
+        <image name="stop.fill" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
